@@ -1,0 +1,123 @@
+.App {
+  text-align: center; 
+}
+
+.sbeans{
+  width: 100vh;
+}
+
+.hh{
+  margin-top: 10vh;
+}
+
+.card-age{
+  display: flex;
+  font-size: 12px;
+  font-family: cursive;
+  place-content: flex-end;
+}
+
+.classesDiv{
+  margin-top: 15vh;
+}
+
+.classesImg{
+  width: 8vh;
+  padding-bottom: 2vh;
+}
+
+.cct{
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.heading{
+  text-align: left;
+}
+
+.whatsapp{
+  width: 2vh;
+}
+
+.num{
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.icc{
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 767px) {
+#topnav{
+  width: 100vw;
+}
+
+.sbeans{
+  width: inherit;
+}
+
+.hh{
+  margin-top: 10vh;
+}
+
+.spbeans{
+  width: inherit;
+}
+
+.curImg{
+  height: 27vh;
+  width: inherit;
+}
+
+}
+
+@media (min-width: 767px) and (max-width: 1050px) {
+.sbeans{
+    width: 55vw;
+  }
+
+  .hh{
+    margin-top: 10vh;
+    margin-left: -2%;
+  }
+
+  .curImg{
+    height: 18vh;
+    width: inherit;
+  }
+}
+@media (min-width: 1050px) and (max-width: 1599px) {
+  .sbeans{
+    width: 96vh;
+  }
+  .spbeans{
+    width: 96vh;
+  }
+
+  .curImg{
+    height: 27vh;
+  }
+
+}
+
+
+@media (min-width: 1600px){
+  .sbeans{
+    width: 67vh;
+  }
+
+  .hh{
+    margin-left: -1%;
+  }
+
+  .spbeans{
+    width: 67vh;
+  }
+
+  .curImg{
+    height: 21vh;
+  }
+  
+}
